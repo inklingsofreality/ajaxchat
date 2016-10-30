@@ -1,0 +1,81 @@
+#chat{
+width:400px;
+position:absolute;
+z-index:200;
+display:none;
+background-color:#ffffff;
+}
+#chat_headtext{
+float:left;
+}
+#close_button{
+cursor:pointer;
+padding-right:5px;
+width:15px;
+height:15px;
+float:right;
+}
+#close_button img{
+margin-top:5px;
+height:15px;
+width:15px;
+}
+#chat_header{
+height:25px;
+background:url(/images/chat/header_bkg.gif) #ffffff no-repeat;
+color:#ffffff;
+line-height:25px;
+padding-left:10px;
+cursor:move;
+
+}
+#chat_window{
+float:left;
+width:299px;
+height:275px;
+overflow:auto;
+border-left:1px solid #000066;
+background-color:#ffffff;
+}
+
+#chat_users{
+float:left;
+width:98px;
+border-left:1px solid #000066;
+height:275px;
+border-right:1px solid #000066;
+background-color:#ffffff;
+}
+
+#chat_input{
+clear:both;
+border-top:1px solid #000066;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:10px;
+border-left:1px solid #000066;
+border-right:1px solid #000066;
+border-bottom:1px solid #000066;
+background-color:#ffffff;
+}
+
+#chat_text{
+width:300px;
+
+
+}
+
+#chat_nickname{
+border-top:1px solid #000066;
+padding-top:5px;
+padding-bottom:5px;
+clear:both;
+border-left:1px solid #000066;
+border-right:1px solid #000066;
+background-color:#ffffff;
+}
+
+.smaller{
+color:red;
+font-size:smaller;
+}
